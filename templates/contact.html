@@ -26,22 +26,21 @@
       </div>
       
       <!-- Right Container -->
-      <div class="col-md-6 bg-light" style="height: 500px; padding: 30px;">
+      <div class="col-md-6 bg-light">
         <form action="#" method="post">
           <h2 class="text-center" style="color: rgb(20, 8, 89);">Contact Form</h2>
-          <div class="mb-3">
+          <div class="mb-1">
             <label for="name" class="form-label"></label>
             <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
           </div>
-          <div class="mb-3">
+          <div class="mb-1">
             <label for="email" class="form-label"></label>
             <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
           </div>
-          <div class="mb-3">
+          <div class="mb-1">
             <label for="message" class="form-label"></label>
             <textarea class="form-control" id="message" rows="4" placeholder="Enter your message here" required></textarea>
           </div>
-          <br>
           <button type="submit" class="button">Send Message</button>
         </form>
       </div>
@@ -76,7 +75,7 @@
           <!-- Address Heading -->
           <h2 class="mb-0">Address</h2>
         </div>
-        <p>Thottathil House, Kanjoor Parappuram PNI 683575</p>
+        <p>Thottathil House, Kanjoor Parappuram 683575</p>
         <p>Ernakulam District, Kerala, India</p>
       </div>
     </div>
@@ -148,6 +147,9 @@
       .parallax-content p {
           font-size: 1rem;
       }
+  }
+  .form-control {
+    border-radius: 10px;
   }
   </style>  
 {% endblock %}
